@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Document</title>
+        <link rel="stylesheet" href="css/main.css".css">
+    </head>
+    <body>
+        <div id="wrap">
+            <ul class="title_select">
+                <li>
+                    <select id="user_money">
+                        <option value="0">Amount</option>
+                        <option value="300">More than $300</option>
+                        <option value="700">More than $700</option>
+                        <option value="10000">More than $10000</option>
+                    </select>
+                </li>
+                <li>
+                    <select id="user_age">
+                        <option value="0">Age</option>
+                        <option value="10">Elder than 10</option>
+                        <option value="20">Elder than 20</option>
+                        <option value="30">Elder than 30</option>
+                    </select>
+                </li>
+                <li>
+                    <select id="user_gender">
+                        <option value="no">Gender</option>
+                        <option value="boy">boy</option>
+                        <option value="girl">girl</option>
+                    </select>
+                </li>
+            </ul>
+            <ul class="title">
+                <li>Name</li>
+                <li>Amount</li>
+                <li>Age</li>
+                <li>Gender</li>
+            </ul>
+            <div class="itemBox">
+                <!-- <ul class="content">
+                    <li>小豬</li>
+                    <li>12000</li>
+                    <li>12</li>
+                    <li>boy</li>
+                </ul> -->
+            </div>            
+        </div>
+        <script src="js/data.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
